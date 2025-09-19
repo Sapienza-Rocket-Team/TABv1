@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RT6150B-33GQW"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-06-16-12:32:49)
+    (mountForm default
+        (footprintRef "SON50P250X250X80-11N-D")
+        (spec "System")
+    )
+)

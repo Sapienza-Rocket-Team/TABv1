@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS630702RNMR
+D Switching Voltage Regulators
+K
+F http://www.ti.com/lit/ds/symlink/tps63070.pdf
+$ENDCMP
+#
+#End Doc Library

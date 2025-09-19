@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS630702RNMR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Texas Instruments", "TPS630702RNMR" (!) = "", "TPS630701RNMR", "Other", "595-TPS630702RNMR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS630702RNMR?qs=vLWxofP3U2wHUyCq3Fj%2FmQ%3D%3D", "Switching Voltage Regulators", "http://www.ti.com/lit/ds/symlink/tps63070.pdf"
+END_PART
+
+END.

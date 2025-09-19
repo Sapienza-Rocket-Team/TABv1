@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS630702RNMR
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=15
+Version=1.1
+Released=2020-04-05 22:36:11
+Downloaded=2025-09-09 15:40:06
+3D=Y

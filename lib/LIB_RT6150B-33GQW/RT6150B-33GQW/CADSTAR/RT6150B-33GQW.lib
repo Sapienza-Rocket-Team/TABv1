@@ -1,0 +1,16 @@
+.RT6150B-33GQW :1 ;IC REG BCK BST 3.3V 800MA 10WDFN
+SON50P250X250X80-11N-D
+*STM IC
+*NGS
+*PLB 1="VOUT" 2="LX2" 3="GND_1" 4="LX1" 5="VIN" 6="EN" 7="PS" 8="VINA" 9="GND_2" 10="FB" 11="GND_3"
+*MXP 11
+*DFN RT6150B-33GQW
+~!Mouser Part Number (835-RT6150B-33GQW)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Richtek/RT6150B-33GQW?qs=amGC7iS6iy8r3kS79wnzgg%3D%3D)
+~!Manufacturer_Name (RICHTEK)
+~!Manufacturer_Part_Number (RT6150B-33GQW)
+~!Link Datasheet (https://datasheet.octopart.com/RT6150B-33GQW-Richtek-datasheet-82510503.pdf)
+~!Height (0.8mm)
+~!3D_Model (RT6150B-33GQW)
+RT6150B-33GQW
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 11.1!U 10.1!U 9.1!U 8.1!U 7.1!U 6.1!U 

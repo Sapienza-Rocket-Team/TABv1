@@ -1,0 +1,3 @@
+[submodule "lib/RP2350_KiCad"]
+	path = lib/RP2350_KiCad
+	url = https://github.com/HDR/RP2350_KiCad

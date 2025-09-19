@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RT6150B_33GQW'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "RICHTEK", "RT6150B-33GQW" (!) = "", "SON50P250X250X80-11N-D", "Small Outline No-lead", "835-RT6150B-33GQW", "https://www.mouser.co.uk/ProductDetail/Richtek/RT6150B-33GQW?qs=amGC7iS6iy8r3kS79wnzgg%3D%3D", "IC REG BCK BST 3.3V 800MA 10WDFN", "https://datasheet.octopart.com/RT6150B-33GQW-Richtek-datasheet-82510503.pdf", "0.8 mm"
+END_PART
+
+END.
