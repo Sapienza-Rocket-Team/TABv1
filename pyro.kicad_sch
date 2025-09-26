@@ -1557,9 +1557,9 @@
 		)
 		(uuid "206c56c1-60c5-4d2e-9e87-b08652ffa47a")
 	)
-	(text "PYRO SIMULATI SU FALSTAD\nDMN2040U-13\nVt = 0.5 V\nRds = 25 mOhm\nVgs < 3 V (Batt)\nDMP2040U\nhttps://tinyurl.com/27pqjv7k"
+	(text "11-09-25\nPYRO SIMULATI SU FALSTAD\nDMN2040U-13 - nMOS\nVt = 0.5 V\nRds = 25 mOhm\nVgs < 3 V (Batt)\nDMP2040U\nhttps://tinyurl.com/27pqjv7k"
 		(exclude_from_sim no)
-		(at 217.678 45.72 0)
+		(at 254.508 23.622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1646,6 +1646,16 @@
 			)
 		)
 		(uuid "67a9fdd1-7d20-4453-b5aa-78c4dc656aa6")
+	)
+	(text "26-09-25\nAGG: BJT SIMULATO SU FALSTAD\nJSMSEMI MJD44H11T4G\nhfe: 40-60\nAGG: pMOS SIMULATI SU FALSTAD\nPJM09P30DF\nVt = -2.5 V\nRds(on) = 45m @ -4.5 Vg max\nhttps://tinyurl.com/2aqd5ow9"
+		(exclude_from_sim no)
+		(at 255.778 46.736 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a78c30ae-a77b-4841-9795-a3c69d5f3bd9")
 	)
 	(text "9"
 		(exclude_from_sim no)
@@ -3893,7 +3903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 76.2 88.9 0)
 			(effects
 				(font
@@ -4266,7 +4276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 170.18 88.9 0)
 			(effects
 				(font
@@ -4666,7 +4676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 123.19 88.9 0)
 			(effects
 				(font
@@ -4933,7 +4943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 217.17 88.9 0)
 			(effects
 				(font
@@ -5378,7 +5388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 151.13 135.89 0)
 			(effects
 				(font
