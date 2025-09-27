@@ -7,4 +7,5 @@
   (lib (name "TPS630702RNMR")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_TPS630702RNMR/TPS630702RNMR/KiCad/TPS630702RNMR.kicad_sym")(options "")(descr ""))
   (lib (name "RT6150B-33GQW")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_RT6150B-33GQW/RT6150B-33GQW/KiCad/RT6150B-33GQW.kicad_sym")(options "")(descr ""))
   (lib (name "503398-1892")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_503398-1892/503398-1892/KiCad/503398-1892.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-09-27_12-32-40")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_DB141R-2-54-8P-GN/KiCADv6/2025-09-27_12-32-40.kicad_sym")(options "")(descr ""))
 )

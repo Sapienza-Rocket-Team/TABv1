@@ -7,4 +7,5 @@
   (lib (name "ABM8-272-T3")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_ABM8-272-T3/ABM8-272-T3/KiCad")(options "")(descr ""))
   (lib (name "bmp390")(type "KiCad")(uri "${KIPRJMOD}/lib/bmp390/bmp390.pretty")(options "")(descr ""))
   (lib (name "LSM6DSO32TR")(type "KiCad")(uri "${KIPRJMOD}/lib/LSM6DSO32TR/LSM6DSO32TR.pretty")(options "")(descr ""))
+  (lib (name "DB141R-2-54-8")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_DB141R-2-54-8P-GN/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
