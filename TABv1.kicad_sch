@@ -11149,7 +11149,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "SWD"
 			(at 37.465 119.38 0)
 			(effects
 				(font
