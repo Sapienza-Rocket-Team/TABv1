@@ -4283,7 +4283,7 @@
 		(uuid "254b547f-bd6c-45f7-af67-f3247dabad43")
 	)
 	(junction
-		(at 78.74 173.99)
+		(at 64.77 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e2f7aa5-d1d6-481c-98cc-be1c0003c8cd")
@@ -4295,7 +4295,7 @@
 		(uuid "72a2af2b-1afe-4a2a-aa4a-124a2e9a3aa8")
 	)
 	(junction
-		(at 78.74 168.91)
+		(at 64.77 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7475c9da-1e35-4c16-b1c6-3bd105381302")
@@ -4313,13 +4313,13 @@
 		(uuid "8d6da0c5-bbc7-4cb0-803d-9dc9168f1b0d")
 	)
 	(junction
-		(at 78.74 179.07)
+		(at 64.77 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "916fdd54-eea8-4b21-9c46-d3b70784653f")
 	)
 	(junction
-		(at 78.74 158.75)
+		(at 64.77 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9676fd15-b070-4b3a-9821-f62c3feaab38")
@@ -4343,13 +4343,13 @@
 		(uuid "af16e778-bd76-402d-b93b-53973d6fcc01")
 	)
 	(junction
-		(at 78.74 184.15)
+		(at 64.77 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5dbfab8-cccc-466e-afec-9ac5e7bbf485")
 	)
 	(junction
-		(at 78.74 153.67)
+		(at 64.77 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcffd491-e956-4712-83ba-f424647e8179")
@@ -4361,13 +4361,13 @@
 		(uuid "c671c7ca-b0e2-44af-9ad0-69b4cda3c3f9")
 	)
 	(junction
-		(at 78.74 148.59)
+		(at 64.77 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfa4361c-7c21-4f6f-876f-05fab91132e7")
 	)
 	(junction
-		(at 78.74 163.83)
+		(at 64.77 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df91e773-dc3d-468a-b2fa-1441290759e8")
@@ -4602,7 +4602,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 173.99) (xy 78.74 176.53)
+			(xy 64.77 153.67) (xy 64.77 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4612,7 +4612,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 163.83) (xy 78.74 166.37)
+			(xy 64.77 143.51) (xy 64.77 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4682,7 +4682,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 148.59) (xy 78.74 151.13)
+			(xy 64.77 128.27) (xy 64.77 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4712,7 +4712,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 184.15) (xy 78.74 186.69)
+			(xy 64.77 163.83) (xy 64.77 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4732,7 +4732,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 153.67) (xy 78.74 153.67)
+			(xy 54.61 133.35) (xy 64.77 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4902,7 +4902,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 173.99) (xy 78.74 173.99)
+			(xy 54.61 153.67) (xy 64.77 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4992,7 +4992,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 153.67) (xy 78.74 156.21)
+			(xy 64.77 133.35) (xy 64.77 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5002,7 +5002,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 168.91) (xy 78.74 168.91)
+			(xy 54.61 148.59) (xy 64.77 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5042,7 +5042,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 158.75) (xy 78.74 161.29)
+			(xy 64.77 138.43) (xy 64.77 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5092,7 +5092,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 158.75) (xy 78.74 158.75)
+			(xy 54.61 138.43) (xy 64.77 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5102,7 +5102,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 163.83) (xy 78.74 163.83)
+			(xy 54.61 143.51) (xy 64.77 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5192,7 +5192,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 184.15) (xy 78.74 184.15)
+			(xy 54.61 163.83) (xy 64.77 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5232,7 +5232,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 179.07) (xy 78.74 179.07)
+			(xy 54.61 158.75) (xy 64.77 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5252,7 +5252,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 179.07) (xy 78.74 181.61)
+			(xy 64.77 158.75) (xy 64.77 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5352,7 +5352,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 148.59) (xy 78.74 148.59)
+			(xy 54.61 128.27) (xy 64.77 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5362,7 +5362,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 168.91) (xy 78.74 171.45)
+			(xy 64.77 148.59) (xy 64.77 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5451,7 +5451,7 @@
 		(uuid "014ec135-b349-4b25-bfab-53f79d12f54c")
 	)
 	(label "PYRO_LOW"
-		(at 68.58 173.99 180)
+		(at 54.61 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5481,7 +5481,7 @@
 		(uuid "17018963-6329-4a29-b28c-16f5fa11891f")
 	)
 	(label "PYRO_LOW"
-		(at 68.58 163.83 180)
+		(at 54.61 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5511,7 +5511,7 @@
 		(uuid "21cd8b13-61e2-4dc3-89c5-940da2a372a8")
 	)
 	(label "PYRO2"
-		(at 68.58 158.75 180)
+		(at 54.61 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5531,7 +5531,7 @@
 		(uuid "5b337d44-fef9-42e6-8275-fdb39a92430e")
 	)
 	(label "PYRO3"
-		(at 68.58 168.91 180)
+		(at 54.61 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5541,7 +5541,7 @@
 		(uuid "6f02dd88-6c6c-466e-b2bd-85648b71f370")
 	)
 	(label "PYRO4"
-		(at 68.58 179.07 180)
+		(at 54.61 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5551,7 +5551,7 @@
 		(uuid "a5c2f6f0-cbe7-499e-91bb-0c8cbecbbe3a")
 	)
 	(label "PYRO_LOW"
-		(at 68.58 184.15 180)
+		(at 54.61 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5591,7 +5591,7 @@
 		(uuid "b2a1e84a-ba15-4267-8615-6255f0bec9ef")
 	)
 	(label "PYRO_LOW"
-		(at 68.58 153.67 180)
+		(at 54.61 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5601,7 +5601,7 @@
 		(uuid "e48c5550-0aa0-43f7-a93e-30b1e7ef3ef5")
 	)
 	(label "PYRO1"
-		(at 68.58 148.59 180)
+		(at 54.61 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6911,7 +6911,7 @@
 	)
 	(symbol
 		(lib_id "2025-09-27_12-32-40:DB141R-2.54-8P-GN")
-		(at 78.74 148.59 0)
+		(at 64.77 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6920,7 +6920,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cf6b33b-8d32-4114-bf25-702556f814fb")
 		(property "Reference" "J15"
-			(at 92.71 166.3699 0)
+			(at 78.74 146.0499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6929,7 +6929,7 @@
 			)
 		)
 		(property "Value" "DB141R-2.54-8P-GN"
-			(at 92.71 168.9099 0)
+			(at 78.74 148.5899 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6938,7 +6938,7 @@
 			)
 		)
 		(property "Footprint" "DB141R-2-54-8:CONN16_DB141R_DIO"
-			(at 78.74 148.59 0)
+			(at 64.77 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6948,7 +6948,7 @@
 			)
 		)
 		(property "Datasheet" "DB141R-2.54-8P-GN"
-			(at 78.74 148.59 0)
+			(at 64.77 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6958,7 +6958,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 148.59 0)
+			(at 64.77 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)

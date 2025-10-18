@@ -643,6 +643,10 @@
     [
       "5f928ec3-de2c-45ad-87ae-24994ae19594",
       "microSD"
+    ],
+    [
+      "cc092d23-6cc0-4a2d-9f29-b2ea424a4789",
+      "LoRa Module"
     ]
   ],
   "text_variables": {}
