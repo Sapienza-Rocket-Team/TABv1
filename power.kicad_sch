@@ -6695,7 +6695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "AOTA B201610S3R3-101-T:L_AOTA-B201610S3R3-101-T_MCH"
 			(at 46.99 36.83 0)
 			(effects
 				(font

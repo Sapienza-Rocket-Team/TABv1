@@ -10,4 +10,5 @@
   (lib (name "DB141R-2-54-8")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_DB141R-2-54-8P-GN/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "CMT-8503-85B-SMT-TR")(type "KiCad")(uri "${KIPRJMOD}/lib/CMT-8503-85B-SMT-TR/CMT-8503-85B-SMT-TR.pretty")(options "")(descr ""))
   (lib (name "rc-wle5")(type "KiCad")(uri "${KIPRJMOD}/lib/rc-wle5")(options "")(descr ""))
+  (lib (name "AOTA B201610S3R3-101-T")(type "KiCad")(uri "${KIPRJMOD}/lib/aota-b201610s3r3-101-t/AOTA B201610S3R3-101-T.pretty")(options "")(descr ""))
 )
