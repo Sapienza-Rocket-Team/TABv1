@@ -10,4 +10,5 @@
   (lib (name "2025-09-27_12-32-40")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_DB141R-2-54-8P-GN/KiCADv6/2025-09-27_12-32-40.kicad_sym")(options "")(descr ""))
   (lib (name "CMT-8503-85B-SMT-TR")(type "KiCad")(uri "${KIPRJMOD}/lib/CMT-8503-85B-SMT-TR/CMT-8503-85B-SMT-TR.kicad_sym")(options "")(descr ""))
   (lib (name "rc-wle5")(type "KiCad")(uri "${KIPRJMOD}/lib/rc-wle5/rc-wle5.kicad_sym")(options "")(descr ""))
+  (lib (name "LC68G")(type "KiCad")(uri "${KIPRJMOD}/LC68G.kicad_sym")(options "")(descr ""))
 )
