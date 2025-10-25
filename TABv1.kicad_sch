@@ -8579,6 +8579,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 132.08) (xy 182.88 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a170ba0-7f47-4d87-aa55-5af2d4fe7ed0")
+	)
+	(wire
+		(pts
 			(xy 217.17 123.19) (xy 232.41 123.19)
 		)
 		(stroke
@@ -8696,6 +8706,16 @@
 			(type dash)
 		)
 		(uuid "650eca73-5244-407c-bd8c-3fac0d1d5ea0")
+	)
+	(wire
+		(pts
+			(xy 172.72 129.54) (xy 182.88 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65196b82-7c30-49ae-ba8c-070b0af0b38d")
 	)
 	(wire
 		(pts
@@ -9366,6 +9386,16 @@
 			(type dash)
 		)
 		(uuid "9a21dedd-fa89-4c3b-9ab8-a48c1fe6731e")
+	)
+	(wire
+		(pts
+			(xy 171.45 88.9) (xy 173.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aaa2656-b242-40d6-808c-87b7e1399cff")
 	)
 	(wire
 		(pts
@@ -10509,6 +10539,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 91.44) (xy 173.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9126eaf-08bd-48a6-a6d4-de1cf5d7b70f")
+	)
+	(wire
+		(pts
 			(xy 147.32 109.22) (xy 167.64 109.22)
 		)
 		(stroke
@@ -10576,6 +10616,16 @@
 			(justify left bottom)
 		)
 		(uuid "068c164e-ebb2-4ab4-95fa-deb3e86c554d")
+	)
+	(label "TX_GPS"
+		(at 182.88 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "079511fc-9d90-4ff2-bf33-f90df443d274")
 	)
 	(label "PYRO_FIRE_2"
 		(at 166.37 182.88 180)
@@ -10797,6 +10847,16 @@
 		)
 		(uuid "44c8ac00-3a6e-4502-99be-b91fd37b432c")
 	)
+	(label "RX_GPS"
+		(at 194.31 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4895fd8e-9f87-4807-8e89-08aa3774532c")
+	)
 	(label "IMU_INT2"
 		(at 217.17 115.57 0)
 		(effects
@@ -10847,6 +10907,16 @@
 		)
 		(uuid "5f144fdc-7054-4de5-8541-844dc3f65265")
 	)
+	(label "SCL_RADIO"
+		(at 173.99 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "608c0784-675e-4275-a5ec-fb5e066fcc95")
+	)
 	(label "BARO_INT"
 		(at 217.17 107.95 0)
 		(effects
@@ -10887,6 +10957,16 @@
 		)
 		(uuid "77ad2fff-c5fa-491c-a43e-633adaf3b475")
 	)
+	(label "SCL_RADIO"
+		(at 177.8 254 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a48a8b3-8f93-447d-ad84-d5609000be96")
+	)
 	(label "SD2"
 		(at 57.15 107.95 0)
 		(effects
@@ -10906,6 +10986,16 @@
 			(justify left bottom)
 		)
 		(uuid "8203a19f-2943-4b13-9ef7-83012e5d2fd1")
+	)
+	(label "RX_GPS"
+		(at 182.88 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84052b3c-b901-4f9c-8c06-d74106f6f9df")
 	)
 	(label "SD_CMD"
 		(at 166.37 96.52 180)
@@ -10976,6 +11066,16 @@
 			(justify right bottom)
 		)
 		(uuid "8f2190f5-cd59-43f4-a5f2-ef7b4656b8f7")
+	)
+	(label "TX_GPS"
+		(at 194.31 250.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f2fde53-a6fa-45f1-8cfb-a072ce9e1305")
 	)
 	(label "IMU45_CS"
 		(at 166.37 116.84 180)
@@ -11086,6 +11186,16 @@
 			(justify left bottom)
 		)
 		(uuid "a8c45fc9-1449-4bc3-9d81-2c8e325580bf")
+	)
+	(label "SDA_RADIO"
+		(at 173.99 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aba1496d-6fb9-455b-a142-0debf8255a8a")
 	)
 	(label "SD_DAT2"
 		(at 166.37 104.14 180)
@@ -11226,6 +11336,16 @@
 			(justify right bottom)
 		)
 		(uuid "d0988ee2-beac-4322-bd10-4e71e9b8c1a7")
+	)
+	(label "SDA_RADIO"
+		(at 177.8 256.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d138b186-be57-4c84-ae27-91969c9efc11")
 	)
 	(label "IMU_INT1"
 		(at 217.17 113.03 0)
@@ -12441,10 +12561,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "304bff91-10ce-4d21-94a4-0f88da1be3df")
 		(property "Reference" "J12"
-			(at 173.99 129.5399 0)
+			(at 170.688 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12453,7 +12572,7 @@
 			)
 		)
 		(property "Value" "Conn_UART_0"
-			(at 173.99 132.0799 0)
+			(at 170.688 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16186,10 +16305,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e90d707c-846c-45a6-bb1e-542d2248c02a")
 		(property "Reference" "J10"
-			(at 172.72 88.8999 0)
+			(at 169.672 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16198,7 +16316,7 @@
 			)
 		)
 		(property "Value" "Conn_UART_HOST"
-			(at 172.72 91.4399 0)
+			(at 168.402 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16698,8 +16816,8 @@
 		)
 	)
 	(sheet
-		(at 143.51 232.41)
-		(size 54.61 44.45)
+		(at 177.8 245.11)
+		(size 16.51 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -16714,7 +16832,7 @@
 		)
 		(uuid "41f4c21a-5a60-4aaf-8b8a-29c50dd243d1")
 		(property "Sheetname" "LoRa & GPS"
-			(at 143.51 231.6984 0)
+			(at 177.8 244.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16723,12 +16841,52 @@
 			)
 		)
 		(property "Sheetfile" "loRa&GPS.kicad_sch"
-			(at 143.51 277.4446 0)
+			(at 177.8 259.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "RX_GPS" input
+			(at 194.31 247.65 0)
+			(uuid "75d1651f-75e8-4a83-be41-e47840d3ec23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX_GPS" input
+			(at 194.31 250.19 0)
+			(uuid "4704fa85-3060-4a00-b3bc-3a639f07835b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL_RADIO" input
+			(at 177.8 254 180)
+			(uuid "d62cffe4-f0d4-4f60-b4a4-feb416e3a98e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_RADIO" input
+			(at 177.8 256.54 180)
+			(uuid "a8a5bc27-3f7c-4494-ac6b-1d4041357cea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
