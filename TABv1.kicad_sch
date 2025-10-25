@@ -16698,6 +16698,48 @@
 		)
 	)
 	(sheet
+		(at 143.51 232.41)
+		(size 54.61 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "41f4c21a-5a60-4aaf-8b8a-29c50dd243d1")
+		(property "Sheetname" "LoRa & GPS"
+			(at 143.51 231.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "loRa&GPS.kicad_sch"
+			(at 143.51 277.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TABv1"
+				(path "/105f6e80-8e20-4d56-8eb3-6fa826818670"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 232.41 50.8)
 		(size 17.145 7.62)
 		(exclude_from_sim no)
@@ -16909,48 +16951,6 @@
 			(project "TABv1"
 				(path "/105f6e80-8e20-4d56-8eb3-6fa826818670"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 246.38 201.93)
-		(size 31.75 26.67)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "cc092d23-6cc0-4a2d-9f29-b2ea424a4789")
-		(property "Sheetname" "LoRa Module"
-			(at 246.38 201.2184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "loramodule.kicad_sch"
-			(at 246.38 229.1846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "TABv1"
-				(path "/105f6e80-8e20-4d56-8eb3-6fa826818670"
-					(page "7")
 				)
 			)
 		)
