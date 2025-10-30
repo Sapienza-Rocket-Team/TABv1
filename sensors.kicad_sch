@@ -4774,10 +4774,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d559354d-87cb-4440-aaf8-79d5a3f61319")
 		(property "Reference" "U8"
-			(at 211.6933 144.78 0)
+			(at 194.31 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4786,7 +4785,7 @@
 			)
 		)
 		(property "Value" "LIS2MDL"
-			(at 211.6933 147.32 0)
+			(at 194.31 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
