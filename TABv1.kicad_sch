@@ -11609,7 +11609,7 @@
 		(dnp no)
 		(uuid "0a4a19f0-d2b2-4442-8b41-f034a4d9cb84")
 		(property "Reference" "D6"
-			(at 383.54 189.992 0)
+			(at 384.302 188.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11617,7 +11617,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 383.54 192.024 0)
+			(at 384.302 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)

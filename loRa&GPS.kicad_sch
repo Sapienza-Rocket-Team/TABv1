@@ -606,6 +606,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED_Small"
 			(pin_numbers
 				(hide yes)
@@ -2613,7 +2775,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.852 119.634) (xy 212.852 122.174)
+			(xy 212.852 119.634) (xy 212.852 120.904)
 		)
 		(stroke
 			(width 0)
@@ -4266,7 +4428,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 212.852 122.174 180)
+		(at 212.852 128.524 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4274,7 +4436,7 @@
 		(dnp no)
 		(uuid "6b60caee-3284-4947-bead-6d27b5a3d38c")
 		(property "Reference" "#PWR0109"
-			(at 212.852 118.364 0)
+			(at 212.852 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,7 +4445,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 209.296 126.238 0)
+			(at 209.296 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.852 122.174 0)
+			(at 212.852 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +4463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.852 122.174 0)
+			(at 212.852 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,7 +4472,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 212.852 122.174 0)
+			(at 212.852 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,6 +5128,75 @@
 			(project "TABv1"
 				(path "/105f6e80-8e20-4d56-8eb3-6fa826818670/41f4c21a-5a60-4aaf-8b8a-29c50dd243d1"
 					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 212.852 124.714 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa3514a8-5b71-4719-a401-d7917e07c8ed")
+		(property "Reference" "L4"
+			(at 208.534 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uH"
+			(at 207.772 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.852 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.852 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 212.852 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a640d0c-b3cf-4d1f-9ead-e0ee803100f6")
+		)
+		(pin "1"
+			(uuid "297a26cc-6913-4fb8-8fdc-f6efac87466b")
+		)
+		(instances
+			(project ""
+				(path "/105f6e80-8e20-4d56-8eb3-6fa826818670/41f4c21a-5a60-4aaf-8b8a-29c50dd243d1"
+					(reference "L4")
 					(unit 1)
 				)
 			)
