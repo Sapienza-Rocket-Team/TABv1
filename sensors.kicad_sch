@@ -3014,7 +3014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 63.5 63.5 0)
 			(effects
 				(font
@@ -3040,7 +3040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 63.5 58.42 0)
 			(effects
 				(font
@@ -3080,7 +3080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 181.61 63.5 0)
 			(effects
 				(font
@@ -3106,7 +3106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 181.61 58.42 0)
 			(effects
 				(font
@@ -3853,7 +3853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 113.03 104.14 0)
 			(effects
 				(font
@@ -3879,7 +3879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 113.03 109.22 0)
 			(effects
 				(font
@@ -3919,7 +3919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 115.57 66.04 0)
 			(effects
 				(font
@@ -3945,7 +3945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 115.57 60.96 0)
 			(effects
 				(font
@@ -4884,7 +4884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 233.68 66.04 0)
 			(effects
 				(font
@@ -4910,7 +4910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 233.68 60.96 0)
 			(effects
 				(font
@@ -5017,7 +5017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 72.39 104.14 0)
 			(effects
 				(font
@@ -5043,7 +5043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 72.39 109.22 0)
 			(effects
 				(font

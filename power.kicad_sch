@@ -6211,7 +6211,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "49f32fd3-366b-4fe0-be38-47b54272e4ea")
 		(property "Reference" "#PWR05"
 			(at 82.55 29.21 0)
@@ -6222,12 +6221,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 82.55 20.32 0)
+		(property "Value" "+3V3"
+			(at 80.264 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6248,7 +6248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 82.55 25.4 0)
 			(effects
 				(font
@@ -6823,7 +6823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 25.4 29.21 0)
 			(effects
 				(font
@@ -6849,7 +6849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 25.4 34.29 0)
 			(effects
 				(font
@@ -8040,7 +8040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 88.9 20.32 0)
 			(effects
 				(font
@@ -8066,7 +8066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 88.9 25.4 0)
 			(effects
 				(font
