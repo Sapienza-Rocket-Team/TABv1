@@ -11,4 +11,5 @@
   (lib (name "CMT-8503-85B-SMT-TR")(type "KiCad")(uri "${KIPRJMOD}/lib/CMT-8503-85B-SMT-TR/CMT-8503-85B-SMT-TR.kicad_sym")(options "")(descr ""))
   (lib (name "rc-wle5")(type "KiCad")(uri "${KIPRJMOD}/lib/rc-wle5/rc-wle5.kicad_sym")(options "")(descr ""))
   (lib (name "LC68G")(type "KiCad")(uri "${KIPRJMOD}/LC68G.kicad_sym")(options "")(descr ""))
+  (lib (name "TESEO-LIV4F")(type "KiCad")(uri "/home/arturo/Downloads/TESEO_LIV4F/TESEO-LIV4F.kicad_sym")(options "")(descr ""))
 )
