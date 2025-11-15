@@ -6219,7 +6219,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "377e7a66-7435-4878-b94c-d550d71abc96")
+			(uuid "377e7a66-7435-4878-b94c-d550d71abc97")
 		)
 		(instances
 			(project ""
@@ -6286,7 +6286,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "377e7a66-7435-4878-b94c-d550d71abc96")
+			(uuid "377e7a66-7435-4878-b94c-d550d71abc98")
 		)
 		(instances
 			(project ""
@@ -6420,7 +6420,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "377e7a66-7435-4878-b94c-d550d71abc96")
+			(uuid "377e7a66-7435-4878-b94c-d550d71abc99")
 		)
 		(instances
 			(project ""
@@ -6487,7 +6487,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "377e7a66-7435-4878-b94c-d550d71abc96")
+			(uuid "377e7a66-7435-4878-b94c-d550d71abc9a")
 		)
 		(instances
 			(project ""
@@ -6920,7 +6920,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "377e7a66-7435-4878-b94c-d550d71abc96")
+			(uuid "377e7a66-7435-4878-b94c-d550d71abc9b")
 		)
 		(instances
 			(project ""
@@ -7057,7 +7057,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f991713-888b-4783-b11b-81f0e4569605")
+			(uuid "9f991713-888b-4783-b11b-81f0e4569606")
 		)
 		(instances
 			(project ""
@@ -7124,7 +7124,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "377e7a66-7435-4878-b94c-d550d71abc96")
+			(uuid "377e7a66-7435-4878-b94c-d550d71abc9c")
 		)
 		(instances
 			(project ""
@@ -7191,7 +7191,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f991713-888b-4783-b11b-81f0e4569605")
+			(uuid "9f991713-888b-4783-b11b-81f0e4569607")
 		)
 		(instances
 			(project ""
@@ -7229,7 +7229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Seiko_MS621F"
 			(at 99.568 46.228 90)
 			(effects
 				(font
@@ -7327,7 +7327,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "377e7a66-7435-4878-b94c-d550d71abc96")
+			(uuid "377e7a66-7435-4878-b94c-d550d71abc9d")
 		)
 		(instances
 			(project ""
@@ -7366,7 +7366,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 99.568 25.654 90)
 			(effects
 				(font
@@ -7666,7 +7666,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f991713-888b-4783-b11b-81f0e4569605")
+			(uuid "9f991713-888b-4783-b11b-81f0e4569608")
 		)
 		(instances
 			(project ""
@@ -8504,7 +8504,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "377e7a66-7435-4878-b94c-d550d71abc96")
+			(uuid "377e7a66-7435-4878-b94c-d550d71abc9e")
 		)
 		(instances
 			(project ""
@@ -8571,7 +8571,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "377e7a66-7435-4878-b94c-d550d71abc96")
+			(uuid "377e7a66-7435-4878-b94c-d550d71abc9f")
 		)
 		(instances
 			(project ""
@@ -8704,7 +8704,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "377e7a66-7435-4878-b94c-d550d71abc96")
+			(uuid "377e7a66-7435-4878-b94c-d550d71abca0")
 		)
 		(instances
 			(project ""
@@ -8908,7 +8908,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f991713-888b-4783-b11b-81f0e4569605")
+			(uuid "9f991713-888b-4783-b11b-81f0e4569609")
 		)
 		(instances
 			(project ""
@@ -8975,7 +8975,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "377e7a66-7435-4878-b94c-d550d71abc96")
+			(uuid "377e7a66-7435-4878-b94c-d550d71abca1")
 		)
 		(instances
 			(project ""
@@ -9108,7 +9108,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "377e7a66-7435-4878-b94c-d550d71abc96")
+			(uuid "377e7a66-7435-4878-b94c-d550d71abca2")
 		)
 		(instances
 			(project ""
@@ -9175,7 +9175,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "377e7a66-7435-4878-b94c-d550d71abc96")
+			(uuid "377e7a66-7435-4878-b94c-d550d71abca3")
 		)
 		(instances
 			(project ""
