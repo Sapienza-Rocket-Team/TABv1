@@ -16,4 +16,5 @@
   (lib (name "ul_STA8135GA")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_STA8135GA")(options "")(descr ""))
   (lib (name "TESEO_LIV4F")(type "KiCad")(uri "${KIPRJMOD}/lib/TESEO_LIV4F")(options "")(descr ""))
   (lib (name "antenna_GPS")(type "KiCad")(uri "${KIPRJMOD}/lib/antenna_GPS")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/Molex_Nanofit/footprints.pretty")(options "")(descr ""))
 )
