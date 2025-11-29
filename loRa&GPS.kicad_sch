@@ -3588,7 +3588,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "AANIPP0055"
+		(property "Footprint" "antenna_GPS:AANIPP0055"
 			(at 141.91 31.75 0)
 			(effects
 				(font
