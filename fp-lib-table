@@ -15,4 +15,5 @@
   (lib (name "ul_RAK3172")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_RAK3172/ul_RAK3172.pretty")(options "")(descr ""))
   (lib (name "ul_STA8135GA")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_STA8135GA")(options "")(descr ""))
   (lib (name "TESEO_LIV4F")(type "KiCad")(uri "${KIPRJMOD}/lib/TESEO_LIV4F")(options "")(descr ""))
+  (lib (name "antenna_GPS")(type "KiCad")(uri "${KIPRJMOD}/lib/antenna_GPS")(options "")(descr ""))
 )

@@ -14,4 +14,5 @@
   (lib (name "TESEO-LIV4F")(type "KiCad")(uri "${KIPRJMOD}/lib/TESEO_LIV4F/TESEO-LIV4F.kicad_sym")(options "")(descr ""))
   (lib (name "STA8135GA")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_STA8135GA/STA8135GA.kicad_sym")(options "")(descr ""))
   (lib (name "ul_RAK3172")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_RAK3172/ul_RAK3172.kicad_sym")(options "")(descr ""))
+  (lib (name "AANI-PP-0055")(type "KiCad")(uri "${KIPRJMOD}/lib/antenna_GPS/AANI-PP-0055.kicad_sym")(options "")(descr ""))
 )

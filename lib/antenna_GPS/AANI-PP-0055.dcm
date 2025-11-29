@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AANI-PP-0055
+D RF ANTENNA Galileo, GLONASS, GNSS, GPS, QZSS, SBAS Ceramic Patch Solder Through Hole
+K
+F https://abracon.com/datasheets/AANI-PP-0055.pdf
+$ENDCMP
+#
+#End Doc Library
