@@ -579,251 +579,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x04_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_02x03_Row_Letter_Last"
 			(pin_names
 				(offset 1.016)
@@ -7446,10 +7201,6 @@
 		(color 0 0 0 0)
 		(uuid "ebcefc6d-aef0-4371-91b3-2927c3638483")
 	)
-	(no_connect
-		(at 147.32 210.82)
-		(uuid "e02548ae-2eda-4b44-8e30-214637a67057")
-	)
 	(bus_entry
 		(at 55.88 107.95)
 		(size -2.54 -2.54)
@@ -8615,6 +8366,16 @@
 			(type dash_dot_dot)
 		)
 		(uuid "43c7e880-12eb-43b8-8e38-5683dfdb8651")
+	)
+	(wire
+		(pts
+			(xy 166.37 210.82) (xy 147.32 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4459a547-42b0-4957-83ea-381094488499")
 	)
 	(polyline
 		(pts
@@ -10896,6 +10657,16 @@
 		)
 		(uuid "18614550-3aeb-472a-821e-eef25f2b063e")
 	)
+	(label "PWM4"
+		(at 166.37 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a44aff7-7b23-4824-a4fb-d6dd46ecb97b")
+	)
 	(label "IMU_INT2"
 		(at 166.37 175.26 180)
 		(effects
@@ -11036,16 +10807,6 @@
 		)
 		(uuid "2c86fb9e-3d60-4a64-9ece-ce935bd95186")
 	)
-	(label "PWM2"
-		(at 177.8 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2e554629-12fa-42b3-b7f2-06b44ba3207f")
-	)
 	(label "XOUT"
 		(at 72.39 129.54 0)
 		(effects
@@ -11086,7 +10847,7 @@
 		)
 		(uuid "3755370d-55e4-4da9-b989-2726c0359f7c")
 	)
-	(label "GPIO27"
+	(label "GPIO23"
 		(at 207.01 205.74 180)
 		(effects
 			(font
@@ -11095,16 +10856,6 @@
 			(justify right bottom)
 		)
 		(uuid "39aecf33-6c77-4f0f-8b6b-b35c6433d1d0")
-	)
-	(label "GPIO24"
-		(at 166.37 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3cebfcf7-18b6-4a3f-8f82-dd03ff2c54c5")
 	)
 	(label "SCLK"
 		(at 57.15 114.3 0)
@@ -11115,6 +10866,16 @@
 			(justify left bottom)
 		)
 		(uuid "402c27a5-90f5-4222-89c3-5131941e25ff")
+	)
+	(label "PWM1"
+		(at 166.37 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41585679-06c4-421f-b8c0-87683976384f")
 	)
 	(label "{QSPI}"
 		(at 41.91 95.25 0)
@@ -11146,7 +10907,7 @@
 		)
 		(uuid "49d7a4ac-dfaa-4896-a987-c79596b3a8dc")
 	)
-	(label "GPIO24"
+	(label "GPIO20"
 		(at 207.01 198.12 180)
 		(effects
 			(font
@@ -11186,6 +10947,16 @@
 		)
 		(uuid "4e3e4ddf-e165-4c32-a7ac-919b14cd6dfa")
 	)
+	(label "GPIO20"
+		(at 190.5 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a0f6b21-ee44-4298-addb-f5860abcd407")
+	)
 	(label "FB"
 		(at 57.15 87.63 0)
 		(effects
@@ -11206,6 +10977,16 @@
 		)
 		(uuid "5f144fdc-7054-4de5-8541-844dc3f65265")
 	)
+	(label "PWM2"
+		(at 166.37 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fa1578c-a7a4-437a-8f07-47a6cd35216f")
+	)
 	(label "SCL_RADIO"
 		(at 173.99 91.44 0)
 		(effects
@@ -11215,6 +10996,16 @@
 			(justify left bottom)
 		)
 		(uuid "608c0784-675e-4275-a5ec-fb5e066fcc95")
+	)
+	(label "BATT_SENSE"
+		(at 166.37 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61ae3ef3-a4fa-4aa5-9dd9-e9931a7082b1")
 	)
 	(label "BARO_INT"
 		(at 217.17 107.95 0)
@@ -11246,15 +11037,15 @@
 		)
 		(uuid "720d956c-3c39-48b2-ab6e-c2aa9999bc5a")
 	)
-	(label "PWM1"
-		(at 177.8 139.7 0)
+	(label "GPIO22"
+		(at 190.5 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "77ad2fff-c5fa-491c-a43e-633adaf3b475")
+		(uuid "74a97f5e-a5ba-4f39-8a79-5bd9f9a64d61")
 	)
 	(label "SCL_RADIO"
 		(at 177.8 254 180)
@@ -11265,16 +11056,6 @@
 			(justify right bottom)
 		)
 		(uuid "7a48a8b3-8f93-447d-ad84-d5609000be96")
-	)
-	(label "GPIO26"
-		(at 166.37 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b6b5309-9523-4e4c-9fdc-d2dce650e367")
 	)
 	(label "SD2"
 		(at 57.15 107.95 0)
@@ -11295,6 +11076,16 @@
 			(justify left bottom)
 		)
 		(uuid "8203a19f-2943-4b13-9ef7-83012e5d2fd1")
+	)
+	(label "GPIO21"
+		(at 190.5 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "827359af-691f-4f05-803b-dd6f6ea0b0e1")
 	)
 	(label "RX_GPS"
 		(at 182.88 129.54 0)
@@ -11526,16 +11317,6 @@
 		)
 		(uuid "ac5121af-a474-49d1-a79a-2f716df93e67")
 	)
-	(label "GPIO25"
-		(at 166.37 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af84d275-6559-4416-ae79-77917380614c")
-	)
 	(label "SD0"
 		(at 57.15 102.87 0)
 		(effects
@@ -11586,6 +11367,16 @@
 		)
 		(uuid "b9f5f847-4dba-4374-8b9f-5a6ebee7cc70")
 	)
+	(label "GPIO23"
+		(at 190.5 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcee6d9c-7f73-4779-bf85-35da224900e8")
+	)
 	(label "BARO_CS"
 		(at 166.37 165.1 180)
 		(effects
@@ -11606,16 +11397,6 @@
 		)
 		(uuid "c2d6e639-eb97-4605-a776-8e3a716bf315")
 	)
-	(label "PWM4"
-		(at 177.8 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5d5879b-85f4-4a29-bab4-e614b0c028e9")
-	)
 	(label "SD_DAT1"
 		(at 313.69 147.32 0)
 		(effects
@@ -11635,16 +11416,6 @@
 			(justify right bottom)
 		)
 		(uuid "cce0fd73-606d-4de7-8512-c9896c90d794")
-	)
-	(label "PWM3"
-		(at 177.8 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cdeaa072-85c5-4319-91e6-87d6be887c4d")
 	)
 	(label "SD_DAT0"
 		(at 166.37 99.06 180)
@@ -11686,6 +11457,16 @@
 		)
 		(uuid "d3e43469-6d55-4495-ae11-0792386d469c")
 	)
+	(label "BATT_SENSE"
+		(at 232.41 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3faabf0-f3f3-4473-80a9-7f1fd909aff0")
+	)
 	(label "L_RED"
 		(at 352.806 193.04 180)
 		(effects
@@ -11716,7 +11497,7 @@
 		)
 		(uuid "d9159d04-c4a7-4c25-9b7f-f05cdc03e81b")
 	)
-	(label "GPIO25"
+	(label "GPIO21"
 		(at 207.01 200.66 180)
 		(effects
 			(font
@@ -11736,7 +11517,7 @@
 		)
 		(uuid "db66bf25-5b0f-4a46-992b-559fec5f89b6")
 	)
-	(label "GPIO26"
+	(label "GPIO22"
 		(at 207.01 203.2 180)
 		(effects
 			(font
@@ -11796,16 +11577,6 @@
 		)
 		(uuid "e73c7a12-7560-4c5d-9d7f-418b562c0040")
 	)
-	(label "GPIO27"
-		(at 166.37 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8552705-066e-4c54-9778-2c80ff06386e")
-	)
 	(label "PYRO_FIRE_3"
 		(at 166.37 185.42 180)
 		(effects
@@ -11835,6 +11606,16 @@
 			(justify left bottom)
 		)
 		(uuid "ef576c36-7327-4319-8689-d5452db673ca")
+	)
+	(label "PWM3"
+		(at 166.37 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0275dd7-18a1-4b46-8d3f-326a0fbac68e")
 	)
 	(label "PYRO_ENABLE"
 		(at 246.38 156.21 0)
@@ -16531,81 +16312,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 195.58 144.78 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3978974-d760-4f92-a9ba-bf17ee662455")
-		(property "Reference" "J9"
-			(at 196.85 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_SPI0"
-			(at 201.168 144.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 195.58 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 195.58 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c60a198a-7765-49ce-93df-7a3a2fca5b95")
-		)
-		(pin "4"
-			(uuid "f6604f8a-f648-4a80-9478-4a12426f16f8")
-		)
-		(pin "3"
-			(uuid "aa722837-f35c-41d3-9720-a7596b5f447b")
-		)
-		(pin "1"
-			(uuid "8de21aa0-a0ed-46cd-a60c-3b893a37cbea")
-		)
-		(instances
-			(project "cockatiel"
-				(path "/105f6e80-8e20-4d56-8eb3-6fa826818670"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 137.16 60.96 0)
 		(unit 1)
@@ -17546,6 +17252,16 @@
 		(pin "{VREG}" input
 			(at 232.41 39.37 180)
 			(uuid "5a75108b-2a86-4395-96fd-78db3fecb90f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BATT_SENSE" input
+			(at 232.41 41.91 180)
+			(uuid "755d93e0-5aa2-466b-a755-9b0b28d36a25")
 			(effects
 				(font
 					(size 1.27 1.27)
