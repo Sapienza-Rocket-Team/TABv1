@@ -7419,7 +7419,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 170.18) (xy 166.37 170.18)
+			(xy 147.32 170.18) (xy 168.402 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7999,7 +7999,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 172.72) (xy 166.37 172.72)
+			(xy 147.32 172.72) (xy 166.878 172.72)
 		)
 		(stroke
 			(width 0)
@@ -9989,7 +9989,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 165.1) (xy 166.37 165.1)
+			(xy 147.32 165.1) (xy 168.91 165.1)
 		)
 		(stroke
 			(width 0)
@@ -10459,7 +10459,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 167.64) (xy 166.37 167.64)
+			(xy 147.32 167.64) (xy 168.91 167.64)
 		)
 		(stroke
 			(width 0)
@@ -10607,15 +10607,15 @@
 		)
 		(uuid "079511fc-9d90-4ff2-bf33-f90df443d274")
 	)
-	(label "GPIO28"
-		(at 166.37 160.02 0)
+	(label "BARO_INT"
+		(at 166.37 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "0f6dd119-10ae-4818-8f0b-3dfb362df5e6")
+		(uuid "107bcab3-8abf-4757-8c3c-0a649217aa5d")
 	)
 	(label "GPIO44"
 		(at 219.71 205.74 0)
@@ -10666,16 +10666,6 @@
 			(justify left bottom)
 		)
 		(uuid "1a44aff7-7b23-4824-a4fb-d6dd46ecb97b")
-	)
-	(label "IMU_INT2"
-		(at 166.37 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1bca3209-7918-4121-b85d-85ba67a91f47")
 	)
 	(label "MAG_CS"
 		(at 166.37 121.92 180)
@@ -10877,6 +10867,16 @@
 		)
 		(uuid "41585679-06c4-421f-b8c0-87683976384f")
 	)
+	(label "IMU_INT1"
+		(at 190.5 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42e84db4-8d4d-45de-b7c5-d2ea016aee55")
+	)
 	(label "{QSPI}"
 		(at 41.91 95.25 0)
 		(effects
@@ -10927,6 +10927,16 @@
 		)
 		(uuid "4aef8d65-6c55-4ce9-a0be-b5531863b127")
 	)
+	(label "IMU_INT2"
+		(at 190.5 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b797343-5f74-46f0-bdc0-b9795e708688")
+	)
 	(label "SD_DAT0"
 		(at 313.69 144.78 0)
 		(effects
@@ -10946,6 +10956,16 @@
 			(justify right bottom)
 		)
 		(uuid "4e3e4ddf-e165-4c32-a7ac-919b14cd6dfa")
+	)
+	(label "BARO_CS"
+		(at 166.37 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "542d2aa7-28a2-4650-983a-dd335859e93b")
 	)
 	(label "GPIO20"
 		(at 190.5 139.7 0)
@@ -11037,15 +11057,15 @@
 		)
 		(uuid "720d956c-3c39-48b2-ab6e-c2aa9999bc5a")
 	)
-	(label "GPIO22"
-		(at 190.5 144.78 0)
+	(label "L_BLUE"
+		(at 167.64 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "74a97f5e-a5ba-4f39-8a79-5bd9f9a64d61")
+		(uuid "73109858-2e3d-43c5-8f3c-2bb1ecb59bf1")
 	)
 	(label "SCL_RADIO"
 		(at 177.8 254 180)
@@ -11076,16 +11096,6 @@
 			(justify left bottom)
 		)
 		(uuid "8203a19f-2943-4b13-9ef7-83012e5d2fd1")
-	)
-	(label "GPIO21"
-		(at 190.5 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "827359af-691f-4f05-803b-dd6f6ea0b0e1")
 	)
 	(label "RX_GPS"
 		(at 182.88 129.54 0)
@@ -11237,16 +11247,6 @@
 		)
 		(uuid "9c5b45f7-bd69-40e2-ad09-cc0e94d60de5")
 	)
-	(label "IMU_CS"
-		(at 166.37 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9f4e03ce-628b-4365-875b-6f5da8fe32fb")
-	)
 	(label "SPI1.CK"
 		(at 158.75 124.46 0)
 		(effects
@@ -11327,16 +11327,6 @@
 		)
 		(uuid "b132a642-7f73-4f0a-94ce-3ab9c3d63e3a")
 	)
-	(label "BARO_INT"
-		(at 166.37 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b307ca5c-e892-4b38-8160-19731cfbbf39")
-	)
 	(label "MAG_CS"
 		(at 217.17 125.73 0)
 		(effects
@@ -11357,6 +11347,16 @@
 		)
 		(uuid "b567862b-2f7d-4ada-896a-e06351220e32")
 	)
+	(label "IMU_CS"
+		(at 190.5 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b85f4d7c-3a0a-415d-9d40-8685cc4fc591")
+	)
 	(label "PYRO_FIRE_4"
 		(at 246.38 166.37 0)
 		(effects
@@ -11367,35 +11367,25 @@
 		)
 		(uuid "b9f5f847-4dba-4374-8b9f-5a6ebee7cc70")
 	)
-	(label "GPIO23"
-		(at 190.5 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bcee6d9c-7f73-4779-bf85-35da224900e8")
-	)
-	(label "BARO_CS"
-		(at 166.37 165.1 180)
+	(label "L_GREEN"
+		(at 168.91 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "c1dd69bd-ba03-42c3-95ea-eabcc5512669")
+		(uuid "bdd9cb32-4eab-4f1d-a30f-c7e3ab6ee1f2")
 	)
-	(label "L_GREEN"
-		(at 166.37 162.56 0)
+	(label "L_RED"
+		(at 168.91 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "c2d6e639-eb97-4605-a776-8e3a716bf315")
+		(uuid "c034eec6-342a-4673-9d09-2cb558de9b79")
 	)
 	(label "SD_DAT1"
 		(at 313.69 147.32 0)
@@ -11556,16 +11546,6 @@
 			(justify left bottom)
 		)
 		(uuid "e57bf93a-e6b5-42cf-826f-6c6968dbfeae")
-	)
-	(label "IMU_INT1"
-		(at 166.37 172.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e6b8fa27-1fed-4c40-972d-b43afb2e4117")
 	)
 	(label "L_BLUE"
 		(at 353.314 186.69 180)
@@ -16096,6 +16076,7 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 88.9 60.96 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16103,7 +16084,7 @@
 		(dnp no)
 		(uuid "d030ef47-d653-4c54-9fa1-92c79c491982")
 		(property "Reference" "C14"
-			(at 89.408 59.182 0)
+			(at 88.392 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16112,7 +16093,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 89.662 62.484 0)
+			(at 88.138 62.484 0)
 			(effects
 				(font
 					(size 0.889 0.889)
