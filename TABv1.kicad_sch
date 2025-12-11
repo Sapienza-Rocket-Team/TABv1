@@ -7999,7 +7999,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 172.72) (xy 166.878 172.72)
+			(xy 147.32 172.72) (xy 167.64 172.72)
 		)
 		(stroke
 			(width 0)
@@ -10687,16 +10687,6 @@
 		)
 		(uuid "2243971b-8718-4fc5-bb85-46286ddd1dfc")
 	)
-	(label "PWM3"
-		(at 360.68 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22a70ba1-a6df-4d4c-8e71-9d5934b3e70b")
-	)
 	(label "GPIO41"
 		(at 166.37 195.58 0)
 		(effects
@@ -10736,6 +10726,16 @@
 			(justify left bottom)
 		)
 		(uuid "27316cc4-d28c-45d4-bc51-92148baeee41")
+	)
+	(label "PWM1"
+		(at 360.68 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27fd7f30-233f-4520-ba25-a2104c381d3d")
 	)
 	(label "SD_detect"
 		(at 166.37 114.3 180)
@@ -10988,16 +10988,6 @@
 		(uuid "5c1e98b0-056e-4929-84e1-eae36abf39cb")
 	)
 	(label "PWM2"
-		(at 342.9 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f144fdc-7054-4de5-8541-844dc3f65265")
-	)
-	(label "PWM2"
 		(at 166.37 152.4 0)
 		(effects
 			(font
@@ -11037,6 +11027,16 @@
 		)
 		(uuid "6299f8b7-3c1d-4f65-b631-6df58dbf7657")
 	)
+	(label "PWM4"
+		(at 342.9 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6520e15e-f693-4a79-89d7-1f368bdc004a")
+	)
 	(label "IMU45_INT2"
 		(at 217.17 123.19 0)
 		(effects
@@ -11047,16 +11047,6 @@
 		)
 		(uuid "6f0ac1df-42cd-417d-8949-1e81da9717d7")
 	)
-	(label "BUZZ"
-		(at 166.37 208.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "720d956c-3c39-48b2-ab6e-c2aa9999bc5a")
-	)
 	(label "L_BLUE"
 		(at 167.64 170.18 180)
 		(effects
@@ -11066,6 +11056,16 @@
 			(justify right bottom)
 		)
 		(uuid "73109858-2e3d-43c5-8f3c-2bb1ecb59bf1")
+	)
+	(label "PWM3"
+		(at 360.68 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "759e5805-1686-40a0-b9b4-5bf4edf26491")
 	)
 	(label "SCL_RADIO"
 		(at 177.8 254 180)
@@ -11247,6 +11247,16 @@
 		)
 		(uuid "9c5b45f7-bd69-40e2-ad09-cc0e94d60de5")
 	)
+	(label "BUZZ"
+		(at 167.64 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d35d136-5da9-41c7-acba-45f0a6e3f123")
+	)
 	(label "SPI1.CK"
 		(at 158.75 124.46 0)
 		(effects
@@ -11256,16 +11266,6 @@
 			(justify left bottom)
 		)
 		(uuid "9f5e5fda-b508-478f-8204-0dd58360f983")
-	)
-	(label "PWM1"
-		(at 360.68 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1b19011-e2e2-44ff-9346-68ce65ed9ef8")
 	)
 	(label "AVDD"
 		(at 57.15 82.55 0)
@@ -11316,6 +11316,16 @@
 			(justify right bottom)
 		)
 		(uuid "ac5121af-a474-49d1-a79a-2f716df93e67")
+	)
+	(label "PWM2"
+		(at 342.9 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aea19101-4dcd-4743-8bbe-3c3a8001e2e5")
 	)
 	(label "SD0"
 		(at 57.15 102.87 0)
@@ -11467,16 +11477,6 @@
 		)
 		(uuid "d704f709-6c88-4f79-9c6a-002120166e98")
 	)
-	(label "PWM4"
-		(at 342.9 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d77c3d35-9feb-4aa1-8bf8-2f632cf9c813")
-	)
 	(label "GPIO28"
 		(at 207.01 208.28 180)
 		(effects
@@ -11526,16 +11526,6 @@
 			(justify right bottom)
 		)
 		(uuid "e3054931-7f80-49b4-a3fd-94c846790582")
-	)
-	(label "L_BLUE"
-		(at 166.37 205.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e376c977-1e96-4944-8cb9-64bedf94973c")
 	)
 	(label "GPIO44"
 		(at 166.37 203.2 0)
