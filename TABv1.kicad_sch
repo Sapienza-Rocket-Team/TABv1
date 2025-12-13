@@ -10607,6 +10607,16 @@
 		)
 		(uuid "079511fc-9d90-4ff2-bf33-f90df443d274")
 	)
+	(label "PWM3"
+		(at 207.01 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a5643b3-4139-4ae3-84a5-97636cb7f106")
+	)
 	(label "BARO_INT"
 		(at 166.37 160.02 180)
 		(effects
@@ -10837,16 +10847,6 @@
 		)
 		(uuid "3755370d-55e4-4da9-b989-2726c0359f7c")
 	)
-	(label "GPIO23"
-		(at 207.01 205.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "39aecf33-6c77-4f0f-8b6b-b35c6433d1d0")
-	)
 	(label "SCLK"
 		(at 57.15 114.3 0)
 		(effects
@@ -11047,6 +11047,16 @@
 		)
 		(uuid "6f0ac1df-42cd-417d-8949-1e81da9717d7")
 	)
+	(label "PWM2"
+		(at 207.01 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f95a62b-5431-403e-be2e-5bb340d948fd")
+	)
 	(label "L_BLUE"
 		(at 167.64 170.18 180)
 		(effects
@@ -11066,6 +11076,16 @@
 			(justify left bottom)
 		)
 		(uuid "759e5805-1686-40a0-b9b4-5bf4edf26491")
+	)
+	(label "PWM1"
+		(at 207.01 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "797b027f-1057-45af-a6ad-9eea09c71dc3")
 	)
 	(label "SCL_RADIO"
 		(at 177.8 254 180)
@@ -11477,17 +11497,7 @@
 		)
 		(uuid "d704f709-6c88-4f79-9c6a-002120166e98")
 	)
-	(label "GPIO28"
-		(at 207.01 208.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d9159d04-c4a7-4c25-9b7f-f05cdc03e81b")
-	)
-	(label "GPIO21"
+	(label "PWM4"
 		(at 207.01 200.66 180)
 		(effects
 			(font
@@ -11495,7 +11505,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d98560fc-2ee4-42fe-93a5-1f4382ca6912")
+		(uuid "d77c90c3-2f09-4e59-86f0-f473cf41f07e")
 	)
 	(label "{VREG}"
 		(at 41.91 77.47 0)
@@ -11506,16 +11516,6 @@
 			(justify left bottom)
 		)
 		(uuid "db66bf25-5b0f-4a46-992b-559fec5f89b6")
-	)
-	(label "GPIO22"
-		(at 207.01 203.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dc10d601-fc87-420a-ac09-8e558d3a1141")
 	)
 	(label "IMU45_INT2"
 		(at 167.64 137.16 180)
