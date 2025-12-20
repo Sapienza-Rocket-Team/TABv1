@@ -330,6 +330,12 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b33a3bb4-f4d9-4036-8bd3-4e67d9e1a53b")
 	)
+	(pad "13" smd rect
+		(at 1.238 -1.225)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d988bf1f-ec8a-42d9-a827-e92a17d3316a")
+	)
 	(pad "14" smd rect
 		(at 0.488 -1.4)
 		(size 0.25 0.6)
@@ -341,12 +347,6 @@
 		(size 0.25 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9bfe3678-4993-400b-b885-856d95d3310d")
-	)
-	(pad "16" smd rect
-		(at 1.238 -1.225)
-		(size 0.25 0.25)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "d988bf1f-ec8a-42d9-a827-e92a17d3316a")
 	)
 	(embedded_fonts no)
 	(model "TPS630702RNMR.stp"

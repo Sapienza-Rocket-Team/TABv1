@@ -18,4 +18,7 @@
   (lib (name "antenna_GPS")(type "KiCad")(uri "${KIPRJMOD}/lib/antenna_GPS")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/Molex_Nanofit/footprints.pretty")(options "")(descr ""))
   (lib (name "aisler_logo")(type "KiCad")(uri "${KIPRJMOD}/lib/aisler_logo")(options "")(descr ""))
+  (lib (name "lsm6dsv80x")(type "KiCad")(uri "${KIPRJMOD}/lib/lsm6dsv80x/lsm6dsv80x.pretty")(options "")(descr ""))
+  (lib (name "LPS22DF")(type "KiCad")(uri "${KIPRJMOD}/lib/LPS22DF/LPS22DF.pretty")(options "")(descr ""))
+  (lib (name "LIS2MDL")(type "KiCad")(uri "${KIPRJMOD}/lib/LIS2MDL/LIS2MDL.pretty")(options "")(descr ""))
 )
