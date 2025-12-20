@@ -18,4 +18,5 @@
   (lib (name "antenna_GPS")(type "KiCad")(uri "${KIPRJMOD}/lib/antenna_GPS")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/Molex_Nanofit/footprints.pretty")(options "")(descr ""))
   (lib (name "aisler_logo")(type "KiCad")(uri "${KIPRJMOD}/lib/aisler_logo")(options "")(descr ""))
+  (lib (name "L6983")(type "KiCad")(uri "${KIPRJMOD}/lib/L6983/L6983.pretty")(options "")(descr ""))
 )

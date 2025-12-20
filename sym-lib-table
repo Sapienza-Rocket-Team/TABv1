@@ -16,4 +16,5 @@
   (lib (name "ul_RAK3172")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_RAK3172/ul_RAK3172.kicad_sym")(options "")(descr ""))
   (lib (name "AANI-PP-0055")(type "KiCad")(uri "${KIPRJMOD}/lib/antenna_GPS/AANI-PP-0055.kicad_sym")(options "")(descr ""))
   (lib (name "Molex_Nanofit")(type "KiCad")(uri "${KIPRJMOD}/lib/Molex_Nanofit/2025-01-11_22-07-09.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-12-20_10-01-49")(type "KiCad")(uri "${KIPRJMOD}/lib/L6983/2025-12-20_10-01-49.kicad_sym")(options "")(descr ""))
 )
