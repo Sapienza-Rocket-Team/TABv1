@@ -11912,7 +11912,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "15pf"
 			(at 330.454 236.728 0)
 			(effects
 				(font
@@ -12761,7 +12761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "15pf"
 			(at 330.454 224.028 0)
 			(effects
 				(font
@@ -13559,7 +13559,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohm"
+		(property "Value" "220"
 			(at 359.41 182.88 90)
 			(effects
 				(font
