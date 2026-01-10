@@ -2379,10 +2379,6 @@
 		(uuid "9e95d0a1-6e24-420c-8565-8158012c2dad")
 	)
 	(no_connect
-		(at 105.41 67.31)
-		(uuid "9efd90c8-4214-453d-84d6-26980976e06e")
-	)
-	(no_connect
 		(at 129.54 163.83)
 		(uuid "a240bde2-7705-4d0a-83f3-56119cabfdf8")
 	)
@@ -2828,6 +2824,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PPS"
+		(shape input)
+		(at 105.41 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5acf5b3-5899-4421-bc90-0f89d6744999")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.1447 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

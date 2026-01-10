@@ -7419,7 +7419,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 170.18) (xy 168.402 170.18)
+			(xy 147.32 170.18) (xy 168.91 170.18)
 		)
 		(stroke
 			(width 0)
@@ -11058,7 +11058,7 @@
 		(uuid "6f95a62b-5431-403e-be2e-5bb340d948fd")
 	)
 	(label "L_BLUE"
-		(at 167.64 170.18 180)
+		(at 168.91 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11659,6 +11659,28 @@
 			)
 		)
 	)
+	(global_label "PPS"
+		(shape input)
+		(at 166.37 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "735fb2ea-57b2-4aa9-ab61-ffd5970f2a35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.1047 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D-"
 		(shape input)
 		(at 162.56 81.28 0)
@@ -11912,7 +11934,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pf"
+		(property "Value" "15pF"
 			(at 330.454 236.728 0)
 			(effects
 				(font
@@ -12399,7 +12421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 45.72 260.35 0)
 			(effects
 				(font
@@ -12761,7 +12783,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pf"
+		(property "Value" "15pF"
 			(at 330.454 224.028 0)
 			(effects
 				(font

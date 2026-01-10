@@ -2604,7 +2604,7 @@
 		(uuid "ce923891-fd95-458c-a3db-7fa14004272b")
 	)
 	(label "RX"
-		(at 223.52 127 0)
+		(at 222.25 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2772,7 +2772,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nf"
+		(property "Value" "220nF"
 			(at 228.6 139.6999 0)
 			(effects
 				(font
@@ -4111,7 +4111,7 @@
 				)
 			)
 		)
-		(property "Value" "10uf"
+		(property "Value" "10uF"
 			(at 203.2 100.584 90)
 			(effects
 				(font
