@@ -2463,6 +2463,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BC817-25:BC817-25,215"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BC817-25,215"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BC817-25:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_NXP_BC817-25-215_BC817-25-215_C39828.html"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C39828"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC817-25,215_0_1"
+				(polyline
+					(pts
+						(xy 0 2.29) (xy 0 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.76) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 0 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.78 -1.27) (xy 1.02 -2.29) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2712,7 +2874,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Reference_Current:LT3092xST"
+		(symbol "Reference_Current:LM334M"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2725,7 +2887,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LT3092xST"
+			(property "Value" "LM334M"
 				(at 0.635 4.445 0)
 				(effects
 					(font
@@ -2734,7 +2896,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 0.635 -3.81 0)
 				(effects
 					(font
@@ -2745,7 +2907,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3092fc.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm134.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2755,7 +2917,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "200mA 2-Terminal Programmable Current Source, SOT-223"
+			(property "Description" "1μA to 10mA 3-Terminal Adjustable Current Source, SO-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2764,7 +2926,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "current source"
+			(property "ki_keywords" "Adjustable Current Source 10mA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2773,7 +2935,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT*223*TabPin2*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9m*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2782,7 +2944,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LT3092xST_0_1"
+			(symbol "LM334M_0_1"
 				(rectangle
 					(start -2.286 3.048)
 					(end 2.54 -2.794)
@@ -2925,7 +3087,7 @@
 					)
 				)
 			)
-			(symbol "LT3092xST_1_1"
+			(symbol "LM334M_1_1"
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
@@ -2936,7 +3098,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2955,6 +3117,63 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4063,8 +4282,8 @@
 		(uuid c32f8733-5061-447a-ad9a-dc610c047c44)
 	)
 	(rectangle
-		(start 120.65 18.415)
-		(end 179.705 64.77)
+		(start 112.395 18.415)
+		(end 188.595 64.77)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4124,9 +4343,9 @@
 		)
 		(uuid "2e6bd62c-0a44-493c-aa92-fd29377dd124")
 	)
-	(text "h_{fe} = 200"
+	(text "h_{fe} ~ 105"
 		(exclude_from_sim no)
-		(at 161.544 50.038 0)
+		(at 179.07 55.372 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4204,6 +4423,36 @@
 		)
 		(uuid "67a9fdd1-7d20-4453-b5aa-78c4dc656aa6")
 	)
+	(text "38mA"
+		(exclude_from_sim no)
+		(at 158.242 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "75d19999-2833-405e-b170-23a3505a0f40")
+	)
+	(text "158uA"
+		(exclude_from_sim no)
+		(at 143.51 44.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "853a4d04-2f88-458b-926d-dc37b5f58de8")
+	)
+	(text "h_{fe} ~ 240"
+		(exclude_from_sim no)
+		(at 160.02 49.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2b78ddd-8889-4c44-8eb1-7a07552567bc")
+	)
 	(text "26-09-25\nAGG: BJT SIMULATO SU FALSTAD\nJSMSEMI MJD44H11T4G\nhfe: 40-60\nAGG: pMOS SIMULATI SU FALSTAD\nPJM09P30DF\nVt = -2.5 V\nRds(on) = 45m @ -4.5 Vg max\nhttps://tinyurl.com/2aqd5ow9"
 		(exclude_from_sim no)
 		(at 211.074 46.99 0)
@@ -4233,6 +4482,16 @@
 			)
 		)
 		(uuid "e427bc53-6cbb-40f9-92b2-14b6f76f3a21")
+	)
+	(text "4A"
+		(exclude_from_sim no)
+		(at 174.498 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8515b03-6754-4543-b6f1-e5239d318f5a")
 	)
 	(text "3"
 		(exclude_from_sim no)
@@ -4277,12 +4536,6 @@
 		(uuid "226307b8-8852-43d9-999b-17314ed6cd2d")
 	)
 	(junction
-		(at 143.51 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "254b547f-bd6c-45f7-af67-f3247dabad43")
-	)
-	(junction
 		(at 64.77 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4317,6 +4570,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "916fdd54-eea8-4b21-9c46-d3b70784653f")
+	)
+	(junction
+		(at 139.7 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93229b97-bef1-472e-9ba6-2afa39280a29")
 	)
 	(junction
 		(at 64.77 138.43)
@@ -4582,6 +4841,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 45.72) (xy 139.7 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "229eb683-349a-40be-9382-6902f6ed1696")
+	)
+	(wire
+		(pts
 			(xy 167.64 96.52) (xy 167.64 97.79)
 		)
 		(stroke
@@ -4692,7 +4961,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 40.64) (xy 143.51 45.72)
+			(xy 139.7 40.64) (xy 139.7 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4749,6 +5018,16 @@
 			(type default)
 		)
 		(uuid "47490a29-e8d6-4156-80e6-d37eea0c9dcb")
+	)
+	(wire
+		(pts
+			(xy 153.67 50.8) (xy 153.67 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b9598b0-7869-46a9-ab54-b2d0ed1a4806")
 	)
 	(wire
 		(pts
@@ -4872,6 +5151,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 45.72) (xy 148.59 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b29cbcc-4d03-48bb-b777-510b4f5bd4f7")
+	)
+	(wire
+		(pts
 			(xy 134.62 77.47) (xy 134.62 80.01)
 		)
 		(stroke
@@ -4882,23 +5171,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 45.72) (xy 138.43 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ed2ee6b-e26b-46bd-bd86-2e934beea72b")
-	)
-	(wire
-		(pts
-			(xy 153.67 58.42) (xy 157.48 58.42)
+			(xy 172.72 60.96) (xy 176.53 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "61aa4418-d016-4dfc-a5cf-fa51e401d62a")
+	)
+	(wire
+		(pts
+			(xy 153.67 34.29) (xy 153.67 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626e843c-823d-44e5-a481-db76e1dff98e")
 	)
 	(wire
 		(pts
@@ -4922,7 +5211,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 34.29) (xy 153.67 34.29)
+			(xy 127 34.29) (xy 153.67 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4942,7 +5231,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 34.29) (xy 153.67 40.64)
+			(xy 172.72 34.29) (xy 172.72 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5099,6 +5388,16 @@
 			(type default)
 		)
 		(uuid "a3150c28-3145-4c94-9f66-64fd0163a49e")
+	)
+	(wire
+		(pts
+			(xy 172.72 34.29) (xy 153.67 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40603f6-3389-4554-ae0d-da3c7ad42f49")
 	)
 	(wire
 		(pts
@@ -5272,6 +5571,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 52.07) (xy 167.64 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2e0c42-b4b5-449f-9a4d-6964963b665f")
+	)
+	(wire
+		(pts
 			(xy 148.59 129.54) (xy 148.59 133.35)
 		)
 		(stroke
@@ -5282,7 +5591,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 35.56) (xy 130.81 34.29)
+			(xy 127 35.56) (xy 127 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5302,7 +5611,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 50.8) (xy 153.67 58.42)
+			(xy 172.72 57.15) (xy 172.72 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5369,16 +5678,6 @@
 			(type default)
 		)
 		(uuid "f6a47e2e-52a3-4d0c-a5c0-d1ecff5556bb")
-	)
-	(wire
-		(pts
-			(xy 143.51 45.72) (xy 148.59 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6ead3dd-8e31-47b5-b18c-b61f66f91811")
 	)
 	(polyline
 		(pts
@@ -5571,7 +5870,7 @@
 		(uuid "ac24a684-1ea8-4dfd-9c99-6684433ac86d")
 	)
 	(label "PYRO_HIGH"
-		(at 157.48 58.42 0)
+		(at 176.53 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6257,7 +6556,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 40.64 90)
+		(at 135.89 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6265,15 +6564,15 @@
 		(dnp no)
 		(uuid "4049b5ea-1bb8-460c-bdc4-d76d5e1d6a88")
 		(property "Reference" "R8"
-			(at 139.446 36.83 90)
+			(at 135.636 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "200k"
-			(at 139.7 38.608 90)
+		(property "Value" "430"
+			(at 135.89 38.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,7 +6580,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 139.7 42.418 90)
+			(at 135.89 42.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +6589,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 40.64 0)
+			(at 135.89 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,7 +6598,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 139.7 40.64 0)
+			(at 135.89 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6324,7 +6623,7 @@
 	)
 	(symbol
 		(lib_id "WF5803F:MJD44H11T4G")
-		(at 151.13 45.72 0)
+		(at 170.18 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6333,7 +6632,7 @@
 		(fields_autoplaced yes)
 		(uuid "4145d2d2-58ee-47b2-a650-2fb738d9ec26")
 		(property "Reference" "Q1"
-			(at 154.94 44.4499 0)
+			(at 173.99 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6342,7 +6641,7 @@
 			)
 		)
 		(property "Value" "MJD44H11T4G"
-			(at 154.94 46.9899 0)
+			(at 173.99 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6351,7 +6650,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:TO-252-2_L6.5-W6.1-P4.58-LS10.0-TL"
-			(at 151.13 58.42 0)
+			(at 170.18 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6360,7 +6659,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_ON_MJD44H11T4G_MJD44H11T4G_C38780.html"
-			(at 151.13 60.96 0)
+			(at 170.18 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6668,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 45.72 0)
+			(at 170.18 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6378,7 +6677,7 @@
 			)
 		)
 		(property "LCSC Part" "C38780"
-			(at 151.13 63.5 0)
+			(at 170.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,6 +7420,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Reference_Current:LM334M")
+		(at 127 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fb2a3a9-6e0d-4d9d-897c-39be8ec307a6")
+		(property "Reference" "U7"
+			(at 123.19 39.0524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LM334M"
+			(at 123.19 41.5924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 127.635 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm134.pdf"
+			(at 127 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1μA to 10mA 3-Terminal Adjustable Current Source, SO-8"
+			(at 127 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3f9a6dc4-201d-4e3c-81bb-459a33017adc")
+		)
+		(pin "6"
+			(uuid "f7612960-79fe-4eb4-b586-b27874303821")
+		)
+		(pin "7"
+			(uuid "90c8b60f-50dd-4382-bf35-4820d9da9995")
+		)
+		(pin "1"
+			(uuid "411a049a-b490-45f3-a7d5-29d79f3c8c5f")
+		)
+		(pin "2"
+			(uuid "013869e4-6bdb-4bde-b0f8-52a5af4be88c")
+		)
+		(pin "4"
+			(uuid "7feb2c7b-df92-4f69-ac83-4874629da50e")
+		)
+		(instances
+			(project ""
+				(path "/105f6e80-8e20-4d56-8eb3-6fa826818670/0e3bb754-11c8-4798-b0c5-c918ad2a10b9"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 140.97 129.54 90)
 		(unit 1)
@@ -7183,6 +7567,88 @@
 			(project "cockatiel"
 				(path "/105f6e80-8e20-4d56-8eb3-6fa826818670/0e3bb754-11c8-4798-b0c5-c918ad2a10b9"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BC817-25:BC817-25,215")
+		(at 151.13 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c1428ba-a721-472c-88d9-3c2bc37a0ae6")
+		(property "Reference" "Q4"
+			(at 154.94 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC817-25,215"
+			(at 154.94 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BC817-25:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+			(at 151.13 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_NXP_BC817-25-215_BC817-25-215_C39828.html"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C39828"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bd125ea-7ae7-47a3-9583-995ffb6acf07")
+		)
+		(pin "3"
+			(uuid "9f704089-9428-46f6-ad51-66554f5515de")
+		)
+		(pin "2"
+			(uuid "702e4c20-b0a8-4c53-bb04-833542e9ff7e")
+		)
+		(instances
+			(project ""
+				(path "/105f6e80-8e20-4d56-8eb3-6fa826818670/0e3bb754-11c8-4798-b0c5-c918ad2a10b9"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -8469,81 +8935,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Reference_Current:LT3092xST")
-		(at 130.81 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec566ce8-05c7-4ce8-887c-91948ddeda3e")
-		(property "Reference" "U6"
-			(at 127 39.0524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LT3092xST"
-			(at 136.652 31.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 131.445 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3092fc.pdf"
-			(at 130.81 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200mA 2-Terminal Programmable Current Source, SOT-223"
-			(at 130.81 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "08a728db-a278-4e63-9c99-4d7522a000e7")
-		)
-		(pin "2"
-			(uuid "82af2e96-c47a-4f85-b4b3-346fdccb0cfe")
-		)
-		(pin "1"
-			(uuid "adc0165a-8fb1-4b80-b292-657826064c09")
-		)
-		(instances
-			(project ""
-				(path "/105f6e80-8e20-4d56-8eb3-6fa826818670/0e3bb754-11c8-4798-b0c5-c918ad2a10b9"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "WF5803F:PJM09P30DF")
 		(at 87.63 86.36 0)
 		(mirror x)
@@ -8635,73 +9026,6 @@
 			(project ""
 				(path "/105f6e80-8e20-4d56-8eb3-6fa826818670/0e3bb754-11c8-4798-b0c5-c918ad2a10b9"
 					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 134.62 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4ca1b1b-3e87-4587-a715-749107e76207")
-		(property "Reference" "R9"
-			(at 134.366 48.514 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 134.62 50.292 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 134.62 47.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 134.62 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "18d8d1bb-9063-4553-a3e5-02b0b0b47c01")
-		)
-		(pin "1"
-			(uuid "aeb08c40-d093-4c68-89fd-9d0de86858ea")
-		)
-		(instances
-			(project "TABv1"
-				(path "/105f6e80-8e20-4d56-8eb3-6fa826818670/0e3bb754-11c8-4798-b0c5-c918ad2a10b9"
-					(reference "R9")
 					(unit 1)
 				)
 			)

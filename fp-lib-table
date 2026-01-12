@@ -21,4 +21,6 @@
   (lib (name "lsm6dsv80x")(type "KiCad")(uri "${KIPRJMOD}/lib/lsm6dsv80x/lsm6dsv80x.pretty")(options "")(descr ""))
   (lib (name "LPS22DF")(type "KiCad")(uri "${KIPRJMOD}/lib/LPS22DF/LPS22DF.pretty")(options "")(descr ""))
   (lib (name "LIS2MDL")(type "KiCad")(uri "${KIPRJMOD}/lib/LIS2MDL/LIS2MDL.pretty")(options "")(descr ""))
+  (lib (name "LM334MX")(type "KiCad")(uri "${KIPRJMOD}/lib/lm334/LM334MX.pretty")(options "")(descr ""))
+  (lib (name "BC817-25")(type "KiCad")(uri "${KIPRJMOD}/lib/BC817-25/BC817-25.pretty")(options "")(descr ""))
 )
