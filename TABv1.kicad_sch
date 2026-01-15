@@ -7206,6 +7206,12 @@
 		(uuid "766d17db-642a-4964-919a-45e93549a196")
 	)
 	(junction
+		(at 172.72 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7adf845f-fadc-456d-8f61-e32c7403e2ee")
+	)
+	(junction
 		(at 73.66 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7222,6 +7228,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9119a511-30bf-4bb5-beec-7948b2a769ee")
+	)
+	(junction
+		(at 165.1 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9160421d-a701-43c3-8068-ea9beea1861f")
 	)
 	(junction
 		(at 91.44 24.13)
@@ -8065,6 +8077,16 @@
 		)
 		(uuid "2db02f2d-56e5-4c72-82aa-521ba1225178")
 	)
+	(wire
+		(pts
+			(xy 172.72 62.23) (xy 172.72 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2f6c7b-8670-4d1d-bcf9-3efc7f9200e3")
+	)
 	(polyline
 		(pts
 			(xy 109.855 177.165) (xy 109.855 186.69)
@@ -8594,6 +8616,16 @@
 			(type default)
 		)
 		(uuid "4fb1aed2-0124-4e94-89dd-463ed14266c3")
+	)
+	(wire
+		(pts
+			(xy 165.1 63.5) (xy 180.34 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc128d1-4ca4-40aa-8b5a-32a44afba9a4")
 	)
 	(bus
 		(pts
@@ -9347,7 +9379,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 63.5) (xy 156.21 63.5)
+			(xy 129.54 63.5) (xy 165.1 63.5)
 		)
 		(stroke
 			(width 0)
@@ -9367,7 +9399,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 66.04) (xy 156.21 66.04)
+			(xy 129.54 66.04) (xy 172.72 66.04)
 		)
 		(stroke
 			(width 0)
@@ -10527,6 +10559,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 62.23) (xy 165.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a71706-8959-4ca9-9e25-47d6cd54b7cc")
+	)
+	(wire
+		(pts
 			(xy 81.28 43.18) (xy 88.9 43.18)
 		)
 		(stroke
@@ -10554,6 +10596,16 @@
 			(type default)
 		)
 		(uuid "f4affae4-1764-4ea0-80ee-77f3803b73c1")
+	)
+	(wire
+		(pts
+			(xy 172.72 66.04) (xy 180.34 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54fd11f-1610-4861-a260-b4919a50059e")
 	)
 	(wire
 		(pts
@@ -11096,7 +11148,7 @@
 		(uuid "5fa1578c-a7a4-437a-8f07-47a6cd35216f")
 	)
 	(label "SCL_RADIO"
-		(at 156.21 66.04 0)
+		(at 180.34 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11426,7 +11478,7 @@
 		(uuid "a8c45fc9-1449-4bc3-9d81-2c8e325580bf")
 	)
 	(label "SDA_RADIO"
-		(at 156.21 63.5 0)
+		(at 180.34 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14157,6 +14209,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 165.1 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7efdbfd5-0e49-4440-8e41-4e081131dcb4")
+		(property "Reference" "#PWR0110"
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 165.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2696e9fc-11dc-49fe-9d26-830987245892")
+		)
+		(instances
+			(project "TABv1"
+				(path "/105f6e80-8e20-4d56-8eb3-6fa826818670"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 331.47 231.14 270)
 		(unit 1)
@@ -15593,6 +15711,74 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 165.1 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac77059d-608c-493a-ae85-5b54dfa0bff5")
+		(property "Reference" "R9"
+			(at 167.132 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 169.418 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4551b00-bd37-4b8b-a718-62dfcaf5b3d5")
+		)
+		(pin "1"
+			(uuid "5bf6415d-dd23-4440-a57d-f3442655f6d4")
+		)
+		(instances
+			(project "TABv1"
+				(path "/105f6e80-8e20-4d56-8eb3-6fa826818670"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 101.6 35.56 0)
 		(unit 1)
@@ -16054,6 +16240,140 @@
 			(project "TABv1"
 				(path "/105f6e80-8e20-4d56-8eb3-6fa826818670"
 					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 172.72 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4f97255-1477-4832-8f32-4a5d7b3b93ec")
+		(property "Reference" "R26"
+			(at 174.752 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 177.038 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 172.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bb345fb-0a48-4487-9ff3-7c2f997d94ca")
+		)
+		(pin "1"
+			(uuid "42f2a355-5843-4f00-8db2-726dfbe02553")
+		)
+		(instances
+			(project "TABv1"
+				(path "/105f6e80-8e20-4d56-8eb3-6fa826818670"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 172.72 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8acfc9b-a5b4-4400-8849-ee20398609c1")
+		(property "Reference" "#PWR0111"
+			(at 172.72 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 172.72 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 172.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "deed5901-b548-4346-b7fa-6bfa64566023")
+		)
+		(instances
+			(project "TABv1"
+				(path "/105f6e80-8e20-4d56-8eb3-6fa826818670"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
